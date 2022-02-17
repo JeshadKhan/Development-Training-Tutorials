@@ -1,0 +1,10 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\026__File_IO\026__File_IO\bin\Debug\026__File_IO.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\026__File_IO\026__File_IO\bin\Debug\026__File_IO.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\026__File_IO\026__File_IO\obj\Debug\026__File_IO.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\026__File_IO\026__File_IO\obj\Debug\026__File_IO.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\026__File_IO\026__File_IO\obj\Debug\026__File_IO.pdb
+C:\Users\Jeshad Khan\Documents\Visual Studio 2012\Projects\CSharp\i. Basic\026__File_IO\026__File_IO\obj\Debug\026__File_IO.exe
+C:\Users\Jeshad Khan\Documents\Visual Studio 2012\Projects\CSharp\i. Basic\026__File_IO\026__File_IO\obj\Debug\026__File_IO.pdb
+C:\Users\Jeshad Khan\Documents\Visual Studio 2012\Projects\CSharp\i. Basic\026__File_IO\026__File_IO\bin\Debug\026__File_IO.exe
+C:\Users\Jeshad Khan\Documents\Visual Studio 2012\Projects\CSharp\i. Basic\026__File_IO\026__File_IO\bin\Debug\026__File_IO.pdb
+C:\Users\Jeshad Khan\Documents\Visual Studio 2012\Projects\CSharp\i. Basic\026__File_IO\026__File_IO\obj\Debug\026__File_IO.csprojResolveAssemblyReference.cache

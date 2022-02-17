@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CourseFinalProject_UserLoginSystem.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:Literal ID="Literal1" runat="server" Text="Login System"></asp:Literal>
+    </title>
+
+    <%-- Cascading Style Sheet --%>
+    <link type="text/css" rel="stylesheet" href="Theme/bootstrap-3.3.6/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="Theme/bootstrap-3.3.6/css/bootstrap-theme.min.css" />
+
+    <style type="text/css">
+        .border-radius-none {
+            -moz-border-radius: 0;
+            -webkit-border-radius: 0;
+            border-radius: 0;
+        }
+
+        .bg-color-theme {
+            background-color: #0094ff;
+        }
+
+        .text-white {
+            color: #fff;
+        }
+
+        .padding-top-bottom-10px {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .padding-top-bottom-50px {
+            padding-top: 50px;
+            padding-bottom: 65px;
+        }
+
+        .info-div div {
+            padding: 10px;
+        }
+
+        .form-middle-login {
+            max-width: 350px;
+            margin: 0 auto;
+        }
+
+        .form-middle-signup {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <%-- Header --%>
+    <header>
+        <div class="container-fluid bg-color-theme">
+            <div class="row">
+                <h1 class="text-center text-white">Login System</h1>
+            </div>
+        </div>
+
+        <%-- Navigation --%>
+        <ul id="generalNavBar" runat="server" class="nav nav-tabs generalNavBar">
+            <li id="defaultPage" style="margin-left: 20px;"><a href="Default.aspx">Home</a></li>
+            <li id="signupLink" style="margin-right: 20px; float: right;"><a href="signup.aspx">Sign Up</a></li>
+            <li id="loginLink" style="margin-right: 20px; float: right;"><a href="login.aspx">Login</a></li>
+        </ul>
+        <div id="userNavBar" runat="server" class="nav nav-tabs userNavBar" style="display: none;">
+            <h1 class="padding-top-bottom-10px text-center">Wish You Happy New Year - <%= DateTime.Now.Year.ToString().Trim()%></h1>
+        </div>
+    </header>
+
+    <%-- Content Page --%>
+    <form id="form1" runat="server">
+        <div id="mainContentDiv" class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderBody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <%-- Footer --%>
+    <footer>
+        <div class="container-fluid bg-color-theme text-center text-white padding-top-bottom-10px navbar-fixed-bottom">
+            <div class="row">
+                &copy; 2015 Login System Demo.<br />
+                Developed by Jeshad Khan.
+            </div>
+        </div>
+    </footer>
+
+    <%-- JavaScript --%>
+    <script type="text/javascript" src="Theme/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="Theme/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        //var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+        //if (40 + $('header').height() + $('#mainContentDiv').height() + $('footer').height() < h) {
+        //    $('#mainContentDiv').height(h - ($('header').height() + $('footer').height() + 20));
+        //}
+
+        //$(function () {
+        //    if ("<= Session["LoggedInStatus"]%>" != null) {
+        //        $('.generalNavBar').css("display", "block");
+        //        $('.userNavBar').css("display", "none");
+        //    }
+        //    else {
+        //        $('.generalNavBar').css("display", "none");
+        //        $('.userNavBar').css("display", "block");
+        //    }
+        //});
+
+        $(function () {
+            var url = location.pathname.substring(1);
+
+            switch (url) {
+                case "login.aspx":
+                    $('#loginLink').css("display", "none");
+                    break;
+                case "signup.aspx":
+                    $('#signupLink').css("display", "none");
+                    break;
+                case "user-hub.aspx":
+                case "edit-user-info.aspx":
+                case "change-password.aspx":
+                    $('.generalNavBar').css("display", "none");
+                    $('.userNavBar').css("display", "block");
+                    break;
+                case "forgot-pssword.aspx":
+                    $('#loginLink').css("display", "none");
+                    $('#signupLink').css("display", "none");
+                    break;
+            }
+        });
+    </script>
+</body>
+</html>

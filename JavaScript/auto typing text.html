@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+
+<form name="news">
+<textarea name="news2" cols="40" rows="4" wrap="virtual">Make sure _</textarea>
+</form>
+
+
+<script language="JavaScript">
+var newsText = new Array();
+newsText[0] = "ALhera multimedia ...";
+newsText[1] = "Bangladesh is a  poor country";
+newsText[2] = "Make sure you read the comments before you configure the script...";
+newsText[3] = "Programmed by: Md. Jahidul Islam...";
+newsText[4] = "Copyright by AL-HERA Mulitemia Limited"
+
+var ttloop = 1;    // Repeat forever? (1 = True; 0 = False)
+var tspeed = 50;   // Typing speed in milliseconds (larger number = slower)
+var tdelay = 1000; // Time delay between newsTexts in milliseconds
+
+// ------------- NO EDITING AFTER THIS LINE ------------- \\
+var dwAText, cnews=0, eline=0, cchar=0, mxText;
+
+function doNews()
+{
+  mxText = newsText.length - 1;
+  dwAText = newsText[cnews];
+  setTimeout("addChar()",1000)
+}
+
+function addNews()
+{
+  cnews += 1;
+  if (cnews <= mxText)
+  {
+    dwAText = newsText[cnews];
+    if (dwAText.length != 0)
+	{
+      document.news.news2.value = "";
+      eline = 0;
+      setTimeout("addChar()",tspeed)
+    }
+  }
+}
+
+function addChar()
+{
+  if (eline!=1)
+  {
+    if (cchar != dwAText.length)
+	{
+      nmttxt = "";
+	  for (var k=0; k<=cchar;k++)
+	  	nmttxt += dwAText.charAt(k);
+      	document.news.news2.value = nmttxt;
+      	cchar += 1;
+      	if (cchar != dwAText.length)
+			document.news.news2.value += "_";
+    } 
+	else
+	{
+      cchar = 0;
+      eline = 1;
+    }
+    if (mxText==cnews && eline!=0 && ttloop!=0)
+	{
+      cnews = 0; setTimeout("addNews()",tdelay);
+    }
+	else
+	{
+		setTimeout("addChar()",tspeed);
+	}
+  }
+  else
+  {
+    setTimeout("addNews()",tdelay);
+  }
+}
+
+doNews()
+</script>
+
+</body>
+</html>

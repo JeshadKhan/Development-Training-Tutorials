@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\010__Methods\010__Methods\bin\Debug\010__Methods.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\010__Methods\010__Methods\bin\Debug\010__Methods.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\010__Methods\010__Methods\obj\Debug\010__Methods.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\010__Methods\010__Methods\obj\Debug\010__Methods.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\010__Methods\010__Methods\obj\Debug\010__Methods.pdb

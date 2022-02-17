@@ -1,0 +1,4 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\015__Structures\015__Structures\bin\Debug\015__Structures.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\015__Structures\015__Structures\bin\Debug\015__Structures.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\015__Structures\015__Structures\obj\Debug\015__Structures.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\015__Structures\015__Structures\obj\Debug\015__Structures.pdb

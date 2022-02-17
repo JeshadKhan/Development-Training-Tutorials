@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+<style type="text/css">
+<!--
+
+.coolmenu{
+width: 200px;
+}
+
+.coolmenu td{
+background-color:bisque;
+cursor:hand;
+font-family:Arial;
+font-weight:bold;
+}
+
+.coolmenu td a{
+text-decoration:none;
+color:black;
+}
+
+.coolmenu td#boxdes{
+background: ivory;
+height: 25px;
+font-weight: normal;
+}
+.style88 {color: #FFFFFF}
+#Layer1 {
+position:absolute;
+left:351px;
+top:67px;
+width:102px;
+height:70px;
+z-index:1;
+}
+
+-->
+</style>
+
+<script type="text/javascript">
+function movein(which,html)
+{
+	which.style.background='coral'
+	if(document.getElementById)
+		document.getElementById('boxdes').innerHTML = html
+	else
+		boxdes.innerHTML = html
+}
+
+function moveout(which)
+{
+	which.style.background='bisque'
+	if(document.getElementById)
+		document.getElementById('boxdes').innerHTML = '&nbsp;'
+	else
+		boxdes.innerHTML = '&nbsp;'
+}
+</script>
+</head>
+
+<body>
+<table class="coolmenu" bgcolor="black" border="1" bordercolor="ivory" cellpadding="2" cellspacing="0">
+	<tr><td onmouseover="movein(this,'google search engine')" onmouseout="moveout(this)"><a href="http://www.google.com">google</a></td></tr>
+	<tr><td onmouseover="movein(this,'yahoo search engine')" onmouseout="moveout(this)"><a href="http://www.yahoo.com">yahoo</a></td></tr>
+	<tr><td onmouseover="movein(this,'bing search engine')" onmouseout="moveout(this)"><a href="http://www.bing.com">bing</a></td></tr>
+	<tr><td id="boxdes"></td></tr>
+</table>
+</body>
+</html>

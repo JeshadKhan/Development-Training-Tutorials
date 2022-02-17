@@ -1,0 +1,66 @@
+C:\Users\Jeshad Khan\Desktop\pro\Lift\Lift\bin\Debug\Lift.exe
+C:\Users\Jeshad Khan\Desktop\pro\Lift\Lift\bin\Debug\Lift.pdb
+C:\Users\Jeshad Khan\Desktop\pro\Lift\Lift\obj\x86\Debug\Lift.Form1.resources
+C:\Users\Jeshad Khan\Desktop\pro\Lift\Lift\obj\x86\Debug\Lift.Properties.Resources.resources
+C:\Users\Jeshad Khan\Desktop\pro\Lift\Lift\obj\x86\Debug\Lift.csproj.GenerateResource.Cache
+C:\Users\Jeshad Khan\Desktop\pro\Lift\Lift\obj\x86\Debug\Lift.exe
+C:\Users\Jeshad Khan\Desktop\pro\Lift\Lift\obj\x86\Debug\Lift.pdb
+C:\Users\Jeshad Khan\Desktop\pro\Lift\Lift\obj\x86\Debug\Lift.csprojResolveAssemblyReference.cache
+I:\C#.NET__course\project\WindowsForm\Lift\Lift\obj\x86\Debug\Lift.exe
+I:\C#.NET__course\project\WindowsForm\Lift\Lift\obj\x86\Debug\Lift.pdb
+I:\C#.NET__course\project\WindowsForm\Lift\Lift\bin\Debug\Lift.exe
+I:\C#.NET__course\project\WindowsForm\Lift\Lift\bin\Debug\Lift.pdb
+I:\C#.NET__course\project\WindowsForm\Lift\Lift\obj\x86\Debug\Lift.csprojResolveAssemblyReference.cache
+I:\C#.NET__course\project\WindowsForm\Lift\Lift\obj\x86\Debug\Lift.Form1.resources
+I:\C#.NET__course\project\WindowsForm\Lift\Lift\obj\x86\Debug\Lift.Properties.Resources.resources
+I:\C#.NET__course\project\WindowsForm\Lift\Lift\obj\x86\Debug\Lift.csproj.GenerateResource.Cache
+C:\Users\Trainer\Desktop\Lift\Lift\obj\x86\Debug\Lift.exe
+C:\Users\Trainer\Desktop\Lift\Lift\obj\x86\Debug\Lift.pdb
+C:\Users\Trainer\Desktop\Lift\Lift\bin\Debug\Lift.exe
+C:\Users\Trainer\Desktop\Lift\Lift\bin\Debug\Lift.pdb
+C:\Users\Trainer\Desktop\Lift\Lift\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Trainer\Desktop\Lift\Lift\obj\x86\Debug\Lift.Form1.resources
+C:\Users\Trainer\Desktop\Lift\Lift\obj\x86\Debug\Lift.Properties.Resources.resources
+C:\Users\Trainer\Desktop\Lift\Lift\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Trainer\Desktop\Lift\Lift\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jeshad Khan\Desktop\pro\Lift++\Lift\obj\x86\Debug\Lift.exe
+C:\Users\Jeshad Khan\Desktop\pro\Lift++\Lift\obj\x86\Debug\Lift.pdb
+C:\Users\Jeshad Khan\Desktop\pro\Lift++\Lift\bin\Debug\Lift.exe
+C:\Users\Jeshad Khan\Desktop\pro\Lift++\Lift\bin\Debug\Lift.pdb
+C:\Users\Jeshad Khan\Desktop\pro\Lift++\Lift\obj\x86\Debug\Lift.csprojResolveAssemblyReference.cache
+C:\Users\Jeshad Khan\Desktop\pro\Lift++\Lift\obj\x86\Debug\Lift.Form1.resources
+C:\Users\Jeshad Khan\Desktop\pro\Lift++\Lift\obj\x86\Debug\Lift.Properties.Resources.resources
+C:\Users\Jeshad Khan\Desktop\pro\Lift++\Lift\obj\x86\Debug\Lift.csproj.GenerateResource.Cache
+H:\C#\Lift\Lift\obj\x86\Debug\Lift.exe
+H:\C#\Lift\Lift\obj\x86\Debug\Lift.pdb
+C:\Users\Jeshad Khan\Desktop\C#\Lift\Lift\obj\x86\Debug\Lift.exe
+C:\Users\Jeshad Khan\Desktop\C#\Lift\Lift\obj\x86\Debug\Lift.pdb
+C:\Users\Jeshad Khan\Desktop\C#\Lift\Lift\bin\Debug\Lift.exe
+C:\Users\Jeshad Khan\Desktop\C#\Lift\Lift\bin\Debug\Lift.pdb
+C:\Users\Jeshad Khan\Desktop\C#\Lift\Lift\obj\x86\Debug\Lift.csprojResolveAssemblyReference.cache
+C:\Users\Jeshad Khan\Desktop\C#\Lift\Lift\obj\x86\Debug\Lift.Form1.resources
+C:\Users\Jeshad Khan\Desktop\C#\Lift\Lift\obj\x86\Debug\Lift.Properties.Resources.resources
+C:\Users\Jeshad Khan\Desktop\C#\Lift\Lift\obj\x86\Debug\Lift.csproj.GenerateResource.Cache
+C:\Users\Jeshad Khan\Desktop\pro\Lift\Lift\obj\x86\Debug\Lift.FormAbout.resources
+C:\Users\Jeshad Khan\Desktop\Lift\Lift\obj\x86\Debug\Lift.exe
+C:\Users\Jeshad Khan\Desktop\Lift\Lift\obj\x86\Debug\Lift.pdb
+C:\Users\Jeshad Khan\Desktop\Lift\Lift\bin\Debug\Lift.exe
+C:\Users\Jeshad Khan\Desktop\Lift\Lift\bin\Debug\Lift.pdb
+C:\Users\Jeshad Khan\Desktop\Lift\Lift\obj\x86\Debug\Lift.csprojResolveAssemblyReference.cache
+C:\Users\Jeshad Khan\Desktop\Lift\Lift\obj\x86\Debug\Lift.Form1.resources
+C:\Users\Jeshad Khan\Desktop\Lift\Lift\obj\x86\Debug\Lift.FormAbout.resources
+C:\Users\Jeshad Khan\Desktop\Lift\Lift\obj\x86\Debug\Lift.Properties.Resources.resources
+C:\Users\Jeshad Khan\Desktop\Lift\Lift\obj\x86\Debug\Lift.csproj.GenerateResource.Cache
+C:\Users\Jeshad Khan\Desktop\Lift\Lift\obj\x86\Debug\Lift.FormFlash.resources
+C:\Users\Daffodil\Desktop\Lift\Lift\obj\x86\Debug\Lift.exe
+C:\Users\Daffodil\Desktop\Lift\Lift\obj\x86\Debug\Lift.pdb
+C:\Users\Daffodil\Desktop\Lift\Lift\bin\Debug\Lift.exe
+C:\Users\Daffodil\Desktop\Lift\Lift\bin\Debug\Lift.pdb
+C:\Users\Daffodil\Desktop\Lift\Lift\obj\x86\Debug\Lift.csprojResolveAssemblyReference.cache
+C:\Users\Daffodil\Desktop\Lift\Lift\obj\x86\Debug\Lift.FormAbout.resources
+C:\Users\Daffodil\Desktop\Lift\Lift\obj\x86\Debug\Lift.FormFlash.resources
+C:\Users\Daffodil\Desktop\Lift\Lift\obj\x86\Debug\Lift.Properties.Resources.resources
+C:\Users\Daffodil\Desktop\Lift\Lift\obj\x86\Debug\Lift.csproj.GenerateResource.Cache
+C:\Users\Daffodil\Desktop\Lift\Lift\obj\x86\Debug\Lift.Form1.resources
+C:\Users\Daffodil\Desktop\Voting System\Lift\obj\x86\Debug\Lift.exe
+C:\Users\Daffodil\Desktop\Voting System\Lift\obj\x86\Debug\Lift.pdb

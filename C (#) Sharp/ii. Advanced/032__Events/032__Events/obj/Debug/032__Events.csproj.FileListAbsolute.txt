@@ -1,0 +1,5 @@
+C:\Users\Jeshad Khan\Documents\Visual Studio 2012\Projects\CSharp\032__Events\032__Events\bin\Debug\032__Events.exe
+C:\Users\Jeshad Khan\Documents\Visual Studio 2012\Projects\CSharp\032__Events\032__Events\bin\Debug\032__Events.pdb
+C:\Users\Jeshad Khan\Documents\Visual Studio 2012\Projects\CSharp\032__Events\032__Events\obj\Debug\032__Events.csprojResolveAssemblyReference.cache
+C:\Users\Jeshad Khan\Documents\Visual Studio 2012\Projects\CSharp\032__Events\032__Events\obj\Debug\032__Events.exe
+C:\Users\Jeshad Khan\Documents\Visual Studio 2012\Projects\CSharp\032__Events\032__Events\obj\Debug\032__Events.pdb

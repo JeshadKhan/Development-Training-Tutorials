@@ -1,0 +1,34 @@
+﻿@{
+    Page.Title = "Title goes here";
+    //Layout = "Your Layout Page goes here";
+
+    var mode=Tag.Mode;
+}
+
+<div>
+    @if (mode.ToLower() == "post")
+    {
+        @*@RenderPage("~/_post.cshtml", Post.Current, new MarkdownSharp.Markdown());*@
+        @RenderPage("~/_post.cshtml", Post.Current);
+    }
+    else if (mode.ToLower() == "tag")
+    {
+        var posts = PostRepository.GetPublishedPostsByTag(Tag.UrlFriendlyName);
+
+        foreach (var post in posts)
+        {
+            @*@RenderPage("~/_post.cshtml", post, new MarkdownSharp.Markdown());*@
+            @RenderPage("~/_post.cshtml", post);
+        }
+    }
+    else if (string.IsNullOrEmpty(mode))
+    {
+        var posts = PostRepository.GetPublishedPosts(10);
+
+        foreach (var post in posts)
+        {
+            @*@RenderPage("~/_post.cshtml", post, new MarkdownSharp.Markdown());*@
+            @RenderPage("~/_post.cshtml", post);
+        }
+    }
+</div>

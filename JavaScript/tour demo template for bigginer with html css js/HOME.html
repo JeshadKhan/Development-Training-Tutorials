@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+<title>
+        Amar Bangladesh
+</title>
+
+</head>
+
+
+<body>
+
+<div id="header">
+<h1>
+
+<script language="JavaScript1.2">
+
+var message=" Amar Bangladesh"
+var neonbasecolor="#25DCF7"
+var neontextcolor="black"
+var flashspeed=300  //in milliseconds
+
+var n=0
+if (document.all||document.getElementById){
+document.write('<font color="'+neonbasecolor+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')
+}
+else
+document.write(message)
+
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+
+function neon(){
+
+if (n==0){
+for (m=0;m<message.length;m++)
+crossref(m).style.color=neonbasecolor
+}
+
+crossref(n).style.color=neontextcolor
+
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",1500)
+return
+}
+}
+
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()
+</script>
+
+</h1>
+
+</div>
+
+
+<img src="images/image1.jpg" alt="rotating image" width="100%" height="220" id="rotator">
+<script type="text/javascript">
+(function() {
+    var rotator = document.getElementById('rotator');  
+    var imageDir = 'images/';                          
+    var delayInSeconds = 2;                            
+    // list image names
+    var images = ['image2.jpg', 'image3.jpg', 'image4.jpg', 'image1.jpg' , 'image5.jpg' , 'image7.jpg' , 'image6.jpg','image8.jpg'];
+
+      var num = 0;
+    var changeImage = function() {
+        var len = images.length;
+        rotator.src = imageDir + images[num++];
+        if (num == len) {
+            num = 0;
+        }
+    };
+    setInterval(changeImage, delayInSeconds * 1000);
+})();
+</script>
+
+
+
+
+
+
+
+<div class="left">
+<table>
+<tr><td><a href="#"> Home  </a></td></tr>
+<tr><td><a href="#">  Historical Place </a></td></tr>
+<tr><td><a href="#"> Gallery  </a> </td></tr>
+<tr><td><a href="#"> News  </a>  </td></tr>
+<tr><td><a href="#">  Contact Us </a> </td></tr>
+
+</table>
+ </div>
+
+
+
+
+
+<div class="right"> 
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="fotter"> 
+
+<p1> Site Designed & Developed by :  </p1>
+
+<div> 
+</body>
+
+</html>
+
+

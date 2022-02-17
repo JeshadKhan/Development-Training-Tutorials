@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\018__Inheritance\018__Inheritance\bin\Debug\018__Inheritance.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\018__Inheritance\018__Inheritance\bin\Debug\018__Inheritance.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\018__Inheritance\018__Inheritance\obj\Debug\018__Inheritance.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\018__Inheritance\018__Inheritance\obj\Debug\018__Inheritance.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\018__Inheritance\018__Inheritance\obj\Debug\018__Inheritance.pdb

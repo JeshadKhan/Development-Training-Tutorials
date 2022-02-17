@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\022__Interfaces\022__Interfaces\obj\Debug\022__Interfaces.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\022__Interfaces\022__Interfaces\bin\Debug\022__Interfaces.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\022__Interfaces\022__Interfaces\bin\Debug\022__Interfaces.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\022__Interfaces\022__Interfaces\obj\Debug\022__Interfaces.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\022__Interfaces\022__Interfaces\obj\Debug\022__Interfaces.pdb

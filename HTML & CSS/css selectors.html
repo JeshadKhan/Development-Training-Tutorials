@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+<style>
+/* Attribute selectors */
+
+a[href="http://codecademy.com"] {
+  color: green;
+  font-weight:bold;
+}
+
+input[type="text"] {
+  width: 200px;
+}
+
+input[required] {
+  border: 1px red solid;
+}
+
+
+
+/* Child selectors */
+ul > li {
+  display: inline-block
+}/* Selects only the first-level list items in all unordered lists in the HTML */
+
+ul a {
+  text-underline: none;
+}/* Selects all anchors which have an unordered list their ancestry */
+
+ul + span {
+  display: inline;
+}/* Selects only spans that directly follow an unordered list */
+
+a ~ h1 {
+  color: blue;
+}/* Selects all h1 elements that are in the general vicinity of an anchor */
+
+
+
+/* Universal selector */
+* {
+  background-color: blue;
+}/* Selects ALL HTML elements in the page */
+
+body * {
+  color: red;
+}/* Selects ALL children of the body */
+
+div > * {
+  color: red;
+}/* Selects ALL first-level children of all divs on the page */
+</style>
+</head>
+
+<body>
+
+<!-- Attribute selectors -->
+<a href="http://codecademy.com">learn</a>
+<input type="text">
+<input type="text" required>
+
+
+<!-- Child selectors -->
+
+
+<!-- Universal selector -->
+
+
+</body>
+</html>

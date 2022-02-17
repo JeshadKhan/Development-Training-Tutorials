@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\029__Properties\029__Properties\bin\Debug\029__Properties.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\029__Properties\029__Properties\bin\Debug\029__Properties.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\029__Properties\029__Properties\obj\Debug\029__Properties.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\029__Properties\029__Properties\obj\Debug\029__Properties.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\029__Properties\029__Properties\obj\Debug\029__Properties.pdb

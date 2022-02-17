@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\023__Preprocessor_Directives\023__Preprocessor_Directives\bin\Debug\023__Preprocessor_Directives.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\023__Preprocessor_Directives\023__Preprocessor_Directives\bin\Debug\023__Preprocessor_Directives.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\023__Preprocessor_Directives\023__Preprocessor_Directives\obj\Debug\023__Preprocessor_Directives.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\023__Preprocessor_Directives\023__Preprocessor_Directives\obj\Debug\023__Preprocessor_Directives.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\023__Preprocessor_Directives\023__Preprocessor_Directives\obj\Debug\023__Preprocessor_Directives.pdb

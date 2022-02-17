@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\017__Classes\017__Classes\bin\Debug\017__Classes.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\017__Classes\017__Classes\bin\Debug\017__Classes.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\017__Classes\017__Classes\obj\Debug\017__Classes.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\017__Classes\017__Classes\obj\Debug\017__Classes.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\017__Classes\017__Classes\obj\Debug\017__Classes.pdb

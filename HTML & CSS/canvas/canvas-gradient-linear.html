@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+</head>
+
+<body>
+
+<canvas id="canvas" width="210" height="100" style="border:1px solid green;"></canvas>
+<script>
+var can=document.getElementById('canvas');
+var grd=can.getContext('2d');
+
+//create linear gradient
+var lnrgrd=grd.createLinearGradient(0,0,200,0);
+lnrgrd.addColorStop(0,"green");
+lnrgrd.addColorStop(1,"red");
+
+//fill it
+grd.fillStyle=lnrgrd;
+grd.fillRect(10,10,180,80);
+</script>
+
+</body>
+</html>

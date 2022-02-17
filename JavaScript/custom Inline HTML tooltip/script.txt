@@ -1,0 +1,50 @@
+<head>
+
+<script type="text/javascript" src="jquery-1.2.2.pack.js"></script>
+
+<style type="text/css">
+
+div.htmltooltip{
+position: absolute; /*leave this and next 3 values alone*/
+z-index: 1000;
+left: -1000px;
+top: -1000px;
+background: #272727;
+border: 10px solid black;
+color: white;
+padding: 3px;
+width: 250px; /*width of tooltip*/
+}
+
+</style>
+
+<script type="text/javascript" src="htmltooltip.js">
+
+/***********************************************
+* Inline HTML Tooltip script- by JavaScript Kit (http://www.javascriptkit.com)
+* This notice must stay intact for usage
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+</head>
+
+<body>
+
+<p align="left"> "<a href="http://en.wikipedia.org/wiki/RSS_(file_format)"
+rel="htmltooltip">AL-HERA</a> is a popular Tutorial company. 
+
+<a href="http://www.alherabd.com"
+rel="htmltooltip">Our products</a> see this products.
+
+<!--Inline HTML Tooltips (DIV with class="htmltooltip"-->
+<!--Matched up with anchor links with rel="htmltooltip" and in the
+order they appear within page's source-->
+
+<div class="htmltooltip">AL-HERA is a popular tutorial company..</div>
+<div class="htmltooltip">Total Web design, Total Graphics design</div>
+
+
+
+</body>

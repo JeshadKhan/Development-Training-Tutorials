@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+<style type="text/css">
+.box{
+width:250px;
+height:300px;
+background-color:#009900;
+clear:both;
+}
+</style>
+
+<script type="text/javascript" language="javascript">
+var rotate_delay = 2000;
+current = 0;
+var Links = new Array(4);
+links[0] = "http://www.freewarejava.com";
+links[1] = "http://www.javascriptkit.com";
+links[2] = "http://www.dynamicdrive.com";
+links[3] = "http://www.google.com";
+
+function change()
+{
+	current = document.slideform.slide.selectedIndex;
+	document.images.show.src = document.slideform.slide[current].value;
+}
+
+function next()
+{
+	if (current+1 < document.slideform.slide.length)	//(document.slideform.slide[current+1])
+	{
+		document.images.show.src = document.slideform.slide[current+1].value;
+		document.slideform.slide.selectedIndex = ++current;
+	}
+	else
+		first();
+}
+
+function first()
+{
+	current = 0;
+	document.images.show.src = document.slideform.slide[0].value;
+	document.slideform.slide.selectedIndex = 0;
+}
+
+function previous()
+{
+	if (current-1 >= 0)
+	{
+		document.images.show.src = document.slideform.slide[current-1].value;
+		document.slideform.slide.selectedIndex = --current;
+   	}
+	else
+		last();
+}
+
+function last()
+{
+	current = document.slideform.slide.length-1;
+	document.images.show.src = document.slideform.slide[current].value;
+	document.slideform.slide.selectedIndex = current;
+}
+
+function ap(text)
+{
+	document.slideform.slidebutton.value = (text == "Stop") ? "Start" : "Stop";
+	rotate();
+}
+
+function rotate()
+{
+	if (document.slideform.slidebutton.value == "Stop")
+	{
+		current = (current == document.slideform.slide.length-1) ? 0 : current+1;
+		document.images.show.src = document.slideform.slide[current].value;
+		document.slideform.slide.selectedIndex = current;
+		window.setTimeout("rotate()", rotate_delay);
+	}
+}
+
+function transport()
+{
+	window.location=links[current];
+}
+</script>
+</head>
+
+<body>
+<TABLE border="0" cellspacing="0" cellpadding="0">
+<TR>
+	<TD>
+		<form name="slideform" >
+		<div align="center">
+			<TABLE width="150" border="1" cellspacing="0" cellpadding="4" bordercolor="#330099">
+			<TR>
+				<TD bgcolor="#47d80e">
+				<DIV align="center"><B><FONT color="#FFFFFF">Image Slideshow</FONT></B></DIV> 
+				</TD>
+			</TR>
+			<TR>
+				<TD bgcolor="#47d80e">
+				<div align="center">
+				<a href="javascript:transport()"><IMG src="image01.jpg" width="200" height="150" name="show" border="0"></A>
+				</DIV>
+				</TD>
+			</TR>
+			<TR>
+				<TD bgcolor="#47d80e"> 
+				<DIV align="center">
+				<SELECT name="slide" onChange="change();">
+					<OPTION value="image01.jpg" selected>Image 1</OPTION> 
+					<OPTION value="image02.jpg">Image 2</OPTION> 
+					<OPTION value="image03.jpg">Image 3</OPTION>
+					<OPTION value="image02.jpg">Image 4</OPTION> 
+				</SELECT>
+				</DIV>
+				</TD> 
+			</TR>
+			<TR>
+				<TD bgcolor="#47d80e"> 
+				<DIV align="center"> 
+				<INPUT type="button" onClick="previous()" value="<<" title="Previous">
+				<INPUT type="button" name="slidebutton" onClick="ap(this.value);" value="Start" title="AutoPlay">
+				<INPUT type="button" onClick="next()" value=">>" title="Next">
+				</DIV>
+				</TD> 
+			</TR>
+			</TABLE>
+		</DIV> 
+		</form> 
+	</TD> 
+</TR>
+</TABLE>
+
+</html>

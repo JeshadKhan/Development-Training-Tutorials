@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\009__Encapsulation(Access_Specifier)\009__Encapsulation(Access_Specifier)\bin\Debug\009__Encapsulation(Access_Specifier).exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\009__Encapsulation(Access_Specifier)\009__Encapsulation(Access_Specifier)\bin\Debug\009__Encapsulation(Access_Specifier).pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\009__Encapsulation(Access_Specifier)\009__Encapsulation(Access_Specifier)\obj\Debug\009__Encapsulation(Access_Specifier).csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\009__Encapsulation(Access_Specifier)\009__Encapsulation(Access_Specifier)\obj\Debug\009__Encapsulation(Access_Specifier).exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\009__Encapsulation(Access_Specifier)\009__Encapsulation(Access_Specifier)\obj\Debug\009__Encapsulation(Access_Specifier).pdb

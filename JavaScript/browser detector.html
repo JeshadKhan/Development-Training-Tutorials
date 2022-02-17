@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+</head>
+
+<body>
+<script type="text/javascript">
+//	Browser Detection
+
+var userAgent = navigator.userAgent;
+var opera = (userAgent.indexOf('Opera') != -1);
+var ie = (userAgent.indexOf('MSIE') != -1);
+var gecko = (userAgent.indexOf('Gecko') != -1);
+var netscape = (userAgent.indexOf('Mozilla') != -1);
+var version = navigator.appVersion;
+
+if(opera)
+{
+	document.write("Opera based Browser");
+}
+else if(ie)
+{
+	document.write("IE based Browser");
+}
+else if(gecko)
+{
+	document.write("Gecko based Browser");
+}
+else if(netscape)
+{
+	document.write("Natscape based Browser");
+}
+else
+{
+	document.write("Unknown Browser");
+}
+
+document.write("<br />Browser version info:" + " " + version);
+
+
+
+document.write("<br /><hr /><br />");
+document.write("Your Browser Name is : "+ navigator.appName);
+document.write("<br />Your Browser Version is : " + navigator.appVersion);
+</script>
+</body>
+</html>

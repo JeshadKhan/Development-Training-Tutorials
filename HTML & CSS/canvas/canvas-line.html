@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+</head>
+
+<body>
+
+<canvas id="canvas" width="200" height="100" style="border:1px solid red;"></canvas>
+<script>
+var c=document.getElementById("canvas");
+var line=c.getContext('2d');
+line.moveTo(0,0);
+line.lineTo(200,100);
+line.stroke();
+
+line.moveTo(0,100);
+line.lineTo(200,0);
+line.stroke();
+
+line.moveTo(100,0);
+line.lineTo(100,100);
+line.stroke();
+
+line.moveTo(0,50);
+line.lineTo(200,50);
+line.stroke();
+</script>
+
+</body>
+</html>

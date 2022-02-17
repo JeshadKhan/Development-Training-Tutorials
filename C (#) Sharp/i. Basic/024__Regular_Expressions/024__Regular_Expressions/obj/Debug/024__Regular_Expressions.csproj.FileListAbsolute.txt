@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\024__Regular_Expressions\024__Regular_Expressions\bin\Debug\024__Regular_Expressions.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\024__Regular_Expressions\024__Regular_Expressions\bin\Debug\024__Regular_Expressions.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\024__Regular_Expressions\024__Regular_Expressions\obj\Debug\024__Regular_Expressions.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\024__Regular_Expressions\024__Regular_Expressions\obj\Debug\024__Regular_Expressions.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\024__Regular_Expressions\024__Regular_Expressions\obj\Debug\024__Regular_Expressions.pdb

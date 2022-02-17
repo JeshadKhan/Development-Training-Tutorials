@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\007__Operators\007__Operators\bin\Debug\007__Operators.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\007__Operators\007__Operators\bin\Debug\007__Operators.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\007__Operators\007__Operators\obj\Debug\007__Operators.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\007__Operators\007__Operators\obj\Debug\007__Operators.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\007__Operators\007__Operators\obj\Debug\007__Operators.pdb

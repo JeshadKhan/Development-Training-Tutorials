@@ -1,0 +1,81 @@
+﻿@using LibraryManagementSystem.Models
+
+@{
+    ViewBag.Title = "EmployeeList";
+    List<Department> listOfDepartment = ViewBag.Departments;
+
+    
+}
+
+<div class="well bs-component">
+    <fieldset>
+        <legend>Employee List</legend>
+        <span>@ViewBag.ErrorMessage</span>
+
+        <form class="form-horizontal" id="myForm" role="form" method="post">
+            <div class="form-group">
+                <label for="DepartmentId" class="col-lg-2 control-label">Department</label>
+                <div class="col-lg-10">
+                    <select class="form-control" id="DepartmentId" name="DepartmentId">
+                        <option value="">--Select--</option>
+                        @foreach (Department department in listOfDepartment)
+                        {
+                            <option value="@department.Code">@department.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </form>
+        <hr />
+        <table class="table table-responsive table-striped" id="EmployeeList">
+            <thead>
+                <tr>
+                    <td>Employee Name</td>
+                    <td>Department Name</td>
+                    <td>Department Code</td>
+                </tr>
+            </thead>
+        </table>
+    </fieldset>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery-3.1.0.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myForm").validate({
+                rules: {
+                    DepartmentId: "required"
+                },
+
+                messages: {
+                    DepartmentId: "Please select Department."
+                }
+            });
+
+
+            $("#DepartmentId").change(function () {
+                var dId = $("#DepartmentId").val();
+                $("#EmployeeList").empty();
+                var json = { departmentId: dId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetEmployeeByDepartmentId", "Employee")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        //alert(data);
+                        $("#EmployeeList").append('<thead><tr><td>Employee Name</td><td>Department Name</td><td>Department Code</td></tr></thead><tbody>');
+                        $.each(data, function (key, value) {
+                            //alert(key);
+                            $("#EmployeeList").append('<tr><td>' + value.EmployeeName + '</td><td>' + value.DepartmentName + '</td><td>' + value.DepartmentCode + '</td></tr>');
+                        });
+                        $("#EmployeeList").append('</tbody>');
+                    }
+                });
+            });
+        });
+    </script>
+}

@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\033__Collections\033__Collections\obj\Debug\033__Collections.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\033__Collections\033__Collections\bin\Debug\033__Collections.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\033__Collections\033__Collections\bin\Debug\033__Collections.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\033__Collections\033__Collections\obj\Debug\033__Collections.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\033__Collections\033__Collections\obj\Debug\033__Collections.pdb

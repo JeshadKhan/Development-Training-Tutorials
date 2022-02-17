@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\011__Passing_Parameters\011__Passing_Parameters\obj\Debug\011__Passing_Parameters.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\011__Passing_Parameters\011__Passing_Parameters\bin\Debug\011__Passing_Parameters.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\011__Passing_Parameters\011__Passing_Parameters\bin\Debug\011__Passing_Parameters.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\011__Passing_Parameters\011__Passing_Parameters\obj\Debug\011__Passing_Parameters.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\011__Passing_Parameters\011__Passing_Parameters\obj\Debug\011__Passing_Parameters.pdb

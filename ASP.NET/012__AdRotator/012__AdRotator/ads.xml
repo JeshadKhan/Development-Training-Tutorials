@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>brown.jpg</ImageUrl>
+    <NavigateUrl>http://brown.flower</NavigateUrl>
+    <AlternateText>Brown Flower</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>flowers</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>daffodil.jpg</ImageUrl>
+    <NavigateUrl>http://daffodil.flower</NavigateUrl>
+    <AlternateText>Daffodil</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>flowers</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>sunflower.jpg</ImageUrl>
+    <NavigateUrl>http://sunflower.flower</NavigateUrl>
+    <AlternateText>Sunflower</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>flowers</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>tulip.jpg</ImageUrl>
+    <NavigateUrl>http://tulip.flower</NavigateUrl>
+    <AlternateText>Tulip</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>flowers</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>white.jpg</ImageUrl>
+    <NavigateUrl>http://white.flower</NavigateUrl>
+    <AlternateText>White Flower</AlternateText>
+    <Impressions>20</Impressions>
+    <Keywords>flowers</Keywords>
+  </Ad>
+</Advertisements>

@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+<script type="text/javascript">
+function gettime()
+{
+	var date = new Date();
+	var hr = date.getHours();
+	var m = date.getMinutes();
+	var s = date.getSeconds();
+	//var ns = date.getNanoSeconds();
+	var ampm = "AM";
+	
+	if(hr > 11)
+	{
+		ampm = "PM";
+	}
+	
+	if(hr > 12)
+	{
+		hr -= 12;
+	}
+	
+	m = check(m);
+	s = check(s);
+	
+	document.getElementById('clock').innerHTML = hr + ":" + m + ":" + s + " " + ampm;
+	setTimeout("gettime()",100);
+}
+
+function check(i)
+{
+	if(i < 10)
+	{
+		i = "0" + i;
+	}
+	return i;
+}
+</script>
+
+<style>
+.clock{
+width:100px;
+height:auto;
+background-color:#00CC00;
+}
+</style>
+</head>
+
+<body onload="gettime()">
+<div id="clock" class="clock"></div>
+</body>
+</html>

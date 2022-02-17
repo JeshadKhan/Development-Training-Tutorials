@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\030__Indexers\030__Indexers\bin\Debug\030__Indexers.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\030__Indexers\030__Indexers\bin\Debug\030__Indexers.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\030__Indexers\030__Indexers\obj\Debug\030__Indexers.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\030__Indexers\030__Indexers\obj\Debug\030__Indexers.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\030__Indexers\030__Indexers\obj\Debug\030__Indexers.pdb

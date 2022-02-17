@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\002__Basic_Syntax\002__Basic_Syntax\bin\Debug\002__Basic_Syntax.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\002__Basic_Syntax\002__Basic_Syntax\bin\Debug\002__Basic_Syntax.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\002__Basic_Syntax\002__Basic_Syntax\obj\Debug\002__Basic_Syntax.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\002__Basic_Syntax\002__Basic_Syntax\obj\Debug\002__Basic_Syntax.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\002__Basic_Syntax\002__Basic_Syntax\obj\Debug\002__Basic_Syntax.pdb

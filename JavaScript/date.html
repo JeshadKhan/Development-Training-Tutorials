@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body onload="check()">
+<script type="text/javascript">
+var today = new Date();
+var date = today.getDate();
+var month = today.getMonth();
+var year = today.getFullYear();
+
+function check(month)
+{
+	var monthname = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+	for (var i=0; i <= monthname.length; i++)
+	{
+		return monthname[month];
+	}
+}
+
+document.write("Today is: " + date + ", " + check(month) + ", " + year);
+</script>
+</body>
+</html>

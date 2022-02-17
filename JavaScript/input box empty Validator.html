@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+<script type="text/javascript">
+function validateForm()
+{
+	var x = document.forms["myForm"]["txt"].value;
+	if (x == null || x == "")
+	{
+		alert("The field must be fill-up");
+		return false;
+	} 
+}
+</script>
+
+</head>
+
+<body>
+
+<form name="myForm" action="demo_form.asp" onsubmit="return validateForm()" 
+method="post">
+Type Text: <input type="text" name="txt">
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

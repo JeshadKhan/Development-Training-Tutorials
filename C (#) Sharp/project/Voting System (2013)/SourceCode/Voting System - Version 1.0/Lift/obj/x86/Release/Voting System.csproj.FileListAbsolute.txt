@@ -1,0 +1,11 @@
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\bin\Release\Voting System.exe.config
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\bin\Release\Voting System.exe
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\bin\Release\Voting System.pdb
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\obj\x86\Release\Lift.Form1.resources
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\obj\x86\Release\Lift.FormAbout.resources
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\obj\x86\Release\Lift.FormFlash.resources
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\obj\x86\Release\Lift.Properties.Resources.resources
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\obj\x86\Release\Voting System.csproj.GenerateResource.Cache
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\obj\x86\Release\Voting System.exe
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\obj\x86\Release\Voting System.pdb
+C:\Users\Daffodil\Desktop\Voting_System++\Lift\obj\x86\Release\Voting System.csprojResolveAssemblyReference.cache

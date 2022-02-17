@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Java Script</title>
+
+<!-- JavaScript -->
+<script>
+function reset()
+{
+	document.getElementById("demo");		//reset
+}
+</script>
+
+</head>
+
+<body>
+
+<h3>1.</h3>
+<script>
+document.write("Hello World!")		//print hello world
+</script>
+
+<hr />
+
+<h3>2.</h3>
+<script>
+document.writeln("Mr. Coder!");				//print the sentence or line. and also, insert a space after finished line (for "writeln").
+document.writeln("   Welcome,     ");		//print with single space before & after word.
+document.write("in Java Script.");			//print all inline.
+</script>
+
+<hr />
+
+<h3>3.</h3>
+<script>
+document.write("<h1>use h1 tag in js</h1>");		//use <h1> tag in JavaScript + display sentence inline.
+document.write("<p>use p tag in js</p>");			//use <p> tag in JavaScript + display sentence inline.
+</script>
+
+<hr />
+
+<h3>4.</h3>
+<p id="demo1">NORMAL line (before click)</p>
+<script>
+function react()
+{
+	document.getElementById("demo1").innerHTML="REACT (after click)";		//JavaScript can react to events
+}
+</script>
+<button type="button" onclick="react()">Click</button>
+
+<hr />
+
+<h3>5.</h3>
+<p id="demo2">Change COLOR by clicking button.</p>
+<script>
+function color()
+{
+	x = document.getElementById("demo2");		//get line.
+	x.style.color="green";						//change color the line.
+}
+</script>
+<button type="button" onclick="color()">Click</button>
+
+
+
+
+<hr />
+<noscript>Your broser is unable to display. Your browser does not support JavaScript!</noscript>
+<hr />
+
+</body>
+</html>

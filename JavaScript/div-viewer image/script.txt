@@ -1,0 +1,31 @@
+<Head>
+
+<script src="DV.js" type="text/javascript">
+
+/***********************************************
+* Pagination Combo Box- by Axel Schneider (http://axelschneider.info/)
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and 100s more
+* Please keep this notice intact
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+//Define your images using arbitrary variables, to be passed in as arguments later down the page:
+var mount = '<img src="mount.jpg" width="500" height="300" border="0" alt="">'
+var opera = '<img src="opera.jpg" width="700" height="450" border="0" alt="">' 
+
+</script>
+
+
+</head>
+
+<body>
+
+
+<a href="#" onClick="dv.showDV(mount); return false">Mount</a>
+
+
+
+
+</body>

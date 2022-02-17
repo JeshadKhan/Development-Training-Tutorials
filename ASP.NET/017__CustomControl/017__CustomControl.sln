@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017__CustomControl", "017__CustomControl\017__CustomControl.csproj", "{3DB135FB-D9EB-4F51-AFF5-7EDE8CD54DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControl", "CustomControl\CustomControl.csproj", "{4AB04BE9-30F6-4371-9DF4-A904F2328C84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DB135FB-D9EB-4F51-AFF5-7EDE8CD54DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB135FB-D9EB-4F51-AFF5-7EDE8CD54DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB135FB-D9EB-4F51-AFF5-7EDE8CD54DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB135FB-D9EB-4F51-AFF5-7EDE8CD54DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB04BE9-30F6-4371-9DF4-A904F2328C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB04BE9-30F6-4371-9DF4-A904F2328C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB04BE9-30F6-4371-9DF4-A904F2328C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB04BE9-30F6-4371-9DF4-A904F2328C84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\005__Variables\005__Variables\bin\Debug\005__Variables.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\005__Variables\005__Variables\bin\Debug\005__Variables.pdb
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\005__Variables\005__Variables\obj\Debug\005__Variables.csprojResolveAssemblyReference.cache
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\005__Variables\005__Variables\obj\Debug\005__Variables.exe
+c:\users\jeshad khan\documents\visual studio 2012\Projects\CSharp\005__Variables\005__Variables\obj\Debug\005__Variables.pdb

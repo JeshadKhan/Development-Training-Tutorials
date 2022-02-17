@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+<title>Online Form</title>
+
+<!-- JavaScript -->
+<script>
+function formReset()
+{
+document.getElementById("frm1").reset();
+}
+function formSubmit()
+{
+document.getElementById("frm1").submit();
+}
+</script>
+
+</head>
+
+<body>
+
+<form id="frm1" action="form_submit.html">
+
+<center><font face="Arial"><h1>Online Form</h1></font></center>
+<hr align="center" color="green" size="15" />
+
+<br />
+
+<b>Name: </b><input type="text" maxlength="30"  />
+<br /><br />
+<b>Email: </b><input type="text" maxlength="30" />
+<br /><br />
+<b>Password: </b><input type="password" maxlength="30" />
+
+<br /><br /><br />
+
+<b>Date of Birth: </b>
+<SELECT name ="day">
+<OPTION>DAY
+<OPTION>1 
+<OPTION>2 
+<OPTION>3
+<OPTION>4  
+<OPTION>5 
+<OPTION>6
+<OPTION>7
+<OPTION>8
+<OPTION>9
+<OPTION>10
+<OPTION>11
+<OPTION>12
+<OPTION>13
+<OPTION>14
+<OPTION>15
+<OPTION>16
+<OPTION>17
+<OPTION>18
+<OPTION>19
+<OPTION>20
+<OPTION>21
+<OPTION>22
+<OPTION>23
+<OPTION>24
+<OPTION>25
+<OPTION>26
+<OPTION>27
+<OPTION>28
+<OPTION>29
+<OPTION>30
+<OPTION>31
+</SELECT>
+<select name="month">
+<option>MONTH
+<option>1
+<option>2
+<option>3
+<option>4
+<option>5
+<option>6
+<option>7
+<option>8
+<option>9
+<option>10
+<option>11
+<option>12
+</select>
+<select name="year">
+<option>YEAR
+<option>2000
+<option>2001
+<option>2003
+<option>2004
+<option>2005
+<option>2006
+<option>2007
+<option>2008
+<option>2009
+<option>2010
+<option>2011
+<option>2012
+<option>2013
+</select>
+<br /><br />
+<b>Sex: </b><input type="radio" name="sex" value="male" />Male <input type="radio" name="sex" value="female" />Female
+
+<br /><br />
+
+<b>Address: </b><br /><textarea ="comment" rows="5" cols="40">type your address here: </textarea>
+<br /><br />
+<input type="checkbox" value="terms-&-condition" /> I agree with all terms & condition.
+<br />
+<pre><input type="button" value="Reset" onclick="formReset()"  />		<input type="button" value="Submit" onclick="formSubmit()" /></pre>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+<title>Polo T-Shirt</title>
+
+<!-- JavaScript -->
+<script>
+function formReset()
+{
+document.getElementById("frm1").reset();
+}
+function formSubmit()
+{
+document.getElementById("frm1").submit();
+}
+</script>
+
+
+<!-- CSS -->
+<style>
+
+body{
+background-color:#FFFF99;
+margin:10px 200px 10px 200px;
+border-color:#009900;
+border-top:solid 10px Green;
+border-right:solid 10px Green;
+border-bottom:solid 20px Green;
+border-left:solid 10px Green;
+}
+
+ul{
+list-style:none;
+}
+
+#head{
+width:auto;
+height:150px;
+padding:10px;
+}
+
+.head_l{
+width:150px;
+height:150px;
+float:left;
+}
+
+.head_m{
+width:390px;
+height:150px;
+float:left;
+text-align:right;
+}
+
+.head_r{
+width:150px;
+height:150px;
+float:right;
+}
+
+.colorQ{
+width:auto;
+height:80px;
+margin:0 10px;
+}
+
+.colorQ1{
+width:370px;
+height:80px;
+float:left;
+}
+
+.colorQ2{
+width:200px;
+height:80px;
+background:url(images/shirt-color.jpg) no-repeat;
+float:right;
+}
+
+</style>
+
+</head>
+
+<body>
+<form id="frm1" action="form_submit.html">
+<div id="head">
+	<div class="head_l"><img src="images/front.png" width="150" height="150" align="left" /></div>
+	<div class="head_m"><font face="Arial"><br /><br /><h1>Polo T - Shirt</h1></font></div>
+	<div class="head_r"><img src="images/back.png" width="150" height="150" align="right" /></div>
+</div>
+<hr align="center" color="#009900" size="15" />
+<h3>What is the size of T-shirt you have to buy ?</h3>
+<br />
+	<input type="radio" name="size" value="small" /> Small [S]
+	<input type="radio" name="size" value="medium" /> Medium [M]
+	<input type="radio" name="size" value="large" /> Large [L]
+	<input type="radio" name="size" value="x-large" /> eXtra Large [XL]
+	<input type="radio" name="size" value="x-x-large" /> eXtra eXtra Large [XXL]
+<hr align="center" color="#009900" size="5" />
+<br />
+<pre>
+		<b>Name:</b>		<input type="text" maxlength="30"  />
+	<br />
+		<b>Phone No:</b>	<input type="text" maxlength="30" />
+	<br />
+		<b>Address:</b>
+	<br />				<textarea ="comment" rows="5" cols="40">type your address here: </textarea>
+	<br />
+		<b>How would you like to pay ?</b>
+	<br />
+				<input type="radio" name="pay" value="cash" /> Cash
+				<input type="radio" name="pay" value="check" /> Check
+				<input onclick="document.getElementById('extra1').style.visibility='visible';document.getElementById('extra2').style.visibility='visible';" type="radio" name="pay" /> Credit Card
+				<ul>
+					<input type="radio" id="extra1" style="visibility:hidden" name="card" value="visa" /> Visa
+					<input type="radio" id="extra2" style="visibility:hidden" name="card" value="master" /> Master Card
+				</ul>
+	<br />
+		<b>Card No:</b>	<input type="text" maxlength="30" />
+</pre>
+<hr align="center" color="#009900" size="5" />
+<div class="colorQ">
+	<div class="colorQ1"><h3>What is the color of T-shirt you have to buy ?</h3></div>
+	<div class="colorQ2"></div>
+</div>
+<br />
+	<input type="radio" name="color" value="red" /> Red
+	<input type="radio" name="color" value="gray" /> Gray
+	<input type="radio" name="color" value="yellow" /> Yellow
+	<input type="radio" name="color" value="aqua" /> Aqua
+	<input type="radio" name="color" value="coffe-white" /> Coffe White
+	<input type="radio" name="color" value="green" /> Green
+	<input type="radio" name="color" value="dark-green" /> Dark Green
+	<input type="radio" name="color" value="nevy-blue" /> Nevy Blue
+	<input type="radio" name="color" value="white" /> White
+	<input type="radio" name="color" value="black" /> Black
+<hr align="center" color="#009900" size="5" />
+<br /><br />
+<center><pre><input type="button" value="Reset" onClick="formReset()"  />		<input type="button" value="Submit" onClick="formSubmit()" /></pre></center>
+
+
+</form>
+</body>
+</html>

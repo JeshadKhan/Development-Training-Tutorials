@@ -1,0 +1,15 @@
+﻿@{
+    Page.Title = "Title goes here";
+    Layout = "~/_SiteLayout.cshtml";
+
+    var posts = PostRepository.GetPublishedPosts();
+    var md = PageData[1];
+}
+
+<div>
+    @foreach (var post in posts)
+    {
+        @*@RenderPage("~/_post.cshtml", post, md);*@
+        @RenderPage("~/_post.cshtml", post);
+    }
+</div>

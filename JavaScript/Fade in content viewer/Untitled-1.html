@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+<style
+type="text/css">
+.fadecontentwrapper{ /* Total width: 350px+5px+5px=360px Read relative
+width relations for the other two containers below! */
+position: relative;
+width: 350px;
+height: 250px; /* Set height to be able to contain height of largest
+content shown*/
+border: 5px solid maroon;
+overflow: hidden;
+}
+.fadecontent{ /*style for each fade content DIV within wrapper. Total
+width: 330px+10px+10px=350px (".fadecontentwrapper" width minus its
+padding and borders, if any) */
+position: absolute;
+background: white;
+padding: 10px;
+visibility: hidden;
+width: 330px;
+}
+.fadecontenttoggler{ /*style for DIV used to contain toggler links.
+Total width: 350px+5px+5px=360px */
+width: 350px;
+border: 5px solid maroon;
+border-top-width: 0;
+overflow: hidden;
+}
+.fadecontenttoggler a{ /*style for every navigational link within
+toggler */
+text-decoration: none;
+border-right: 2px solid maroon;
+padding: 0 5px;
+float: left;
+display: block;
+font-weight: bold;
+color: black;
+}
+.fadecontenttoggler a:hover{
+background: #C03021;
+color: white;
+}
+.fadecontenttoggler a.toc{ /*style for individual toggler links (page
+1, page 2, etc). ".toc" class auto generated! */
+}
+.fadecontenttoggler a.prev, .fadecontenttoggler a.next{ /*style for
+"prev" and "next" toggler links. ".prev" and ".next" classes auto
+generated! */
+color: black;
+}
+.fadecontenttoggler a.prev:hover, .fadecontenttoggler a.next:hover{
+color: white;
+background: black;
+}
+.fadecontenttoggler a.selected{ /*style for selected page's toggler
+link. ".selected" class auto generated! */
+background: #C03021;
+color: white;
+}
+</style>
+<script type="text/javascript"
+src="jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="contentfader.js">
+/***********************************************
+* Fade In Content Viewer script- by JavaScript Kit
+(www.javascriptkit.com)
+* This notice must stay intact for usage
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script
+and 100s more
+***********************************************/
+</script>
+</head>
+
+<body>
+<div id="whatsnew" class="fadecontentwrapper">
+<div class="fadecontent">
+Mars is the fourth planet from the Sun in the Solar System. The planet
+is named after Mars, the Roman god of war. It is also referred to as
+the "Red Planet" because of its reddish appearance as seen from Earth.
+A terrestrial planet with a thin atmosphere, Mars has surface features
+reminiscent both of the impact craters of the Moon and the volcanoes,
+valleys, deserts and polar ice caps of Earth.
+</div>
+<div class="fadecontent">
+Saturn is the sixth planet from the Sun and the second largest
+planet in the Solar System, after Jupiter. Along with the planets
+Jupiter, Uranus, and Neptune, it is classified as a gas giant (also
+known as a Jovian planet, after the planet Jupiter).
+</div>
+<div class="fadecontent">
+<b>Hellow world!!!!!</b>
+</div>
+<div class="fadecontent"><img src="image01.jpg" width="150" height="90" />
+
+Jupiter is the fifth planet from the Sun and the largest planet within
+the solar system. It is two and a half times as massive as all of the
+other planets in our solar system combined. Jupiter, along with Saturn,
+Uranus and Neptune, is classified as a gas giant. Together, these four
+planets are sometimes referred to as the Jovian planets, where Jovian
+is the adjectival form of Jupiter.</div>
+</div>
+
+<div id="whatnewstoggler" class="fadecontenttoggler">
+<a href="#" class="prev">Prev</a> <a href="#"
+class="toc">Page 1</a> <a href="#" class="toc">Page
+2</a> <a href="#" class="toc">Page 3</a> <a href="#" class="toc">Page 4</a> <a
+href="#" class="next">Next</a>
+</div>
+<script type="text/javascript">
+//SYNTAX: fadecontentviewer.init("maincontainer_id", "content_classname", "togglercontainer_id", selectedindex, fadespeed_miliseconds)
+fadecontentviewer.init("whatsnew", "fadecontent", "whatnewstoggler", 0, 400)
+</script>
+</body>
+</html>

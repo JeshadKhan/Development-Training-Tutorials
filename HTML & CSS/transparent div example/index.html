@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CSS Document</title>
+
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+
+<style>
+
+/*body impliment*/
+body {
+background-color:#d0e4fe;
+font-size:20px;
+}
+
+/*hadding tag*/
+h1 {
+color:#CC66FF;
+text-align:center;
+}
+
+h2 {
+font-size:140%;
+}
+
+/*paragraph tag*/
+p {
+color:#339966;
+text-align:right;
+}
+
+/*anchor or link tag*/
+a:link {
+color:#0000FF;
+text-decoration:none;
+}
+a:hover {
+color:red;
+font-weight:bold;
+text-decoration:none;
+}
+a:visited {
+text-decoration:none;
+}
+
+/*table with header + data*/
+table {
+border:solid;
+}
+th {
+background-color:#333333;
+}
+td {
+background-color:#FFAAFF;
+text-align:center;
+}
+
+/*id declation*/
+#name {
+font:Arial, Helvetica, sans-serif;
+font-size:36px;
+float:inherit;
+}
+
+/*class declaration*/
+.center {
+text-align:center;
+}
+/*p.center {
+text-align:center;
+}*/
+
+/*Multiple Style Sheets*/
+.multiple {
+color:green;
+text-align:left;
+font-size:12pt;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>CSS Tutorial</h1>
+<br />
+<p>welcome, to css tutorial. its 1st and last class of css. and line align is "left".</p>
+<img src="selector.gif" />
+<br /><hr /><br />
+<h2>Hadding 2 example</h2>
+<br /><hr /><br />
+<a  href="http://www.google.com" target="_blank"> Google </a>
+<br /><hr /><br />
+<table>
+	<tr>
+		<th>Name</th>
+		<th>No. of member</th>
+	</tr>
+	<tr>
+		<td>Code Man</td>
+		<td>5</td>
+	</tr>
+</table>
+<br /><hr /><br />
+<div id="name">Hello, this is an "id".</div>
+<br /><hr /><br />
+<h1 class="center">Center-aligned heading</h1>
+<p class="center">Center-aligned paragraph.</p>
+<br /><hr /><br />
+<h1>Multiple Style Sheets</h1>
+<pre><p class="multiple" style="color:red; text-align:left; font-size:16pt;">
+Styles can be specified:
+
+    inside an HTML element
+    inside the head section of an HTML page
+    in an external CSS file
+
+where number four has the highest priority:
+
+    Browser default
+    External style sheet
+    Internal style sheet (in the head section)
+    Inline style (inside an HTML element)
+
+So, an inline style (inside an HTML element) has the highest priority, 
+which means that it will override a style defined inside the <head> tag, 
+or in an external style sheet, or in a browser (a default value).
+</p></pre>
+<br /><hr /><br />
+
+</body>
+</html>

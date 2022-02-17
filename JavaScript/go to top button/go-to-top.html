@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+<style>
+.back-to-top{
+	display:none;
+	position:fixed;
+	right:2em;
+	bottom:2em;
+	color:white;
+	padding:2px;
+	background-color:#00BB41;
+	border-radius:10%;
+}
+
+.back-to-top:hover{
+	background-color:#00DD41;
+}
+</style>
+</head>
+
+<body>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+<h1>text</h1>
+
+
+<!--Start go-top button-->
+<a href="#" class="back-to-top"><img src="go-top-button.png" width="48" height="48" /></a>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// show or hide the sticky footer go-top button
+		$(window).scroll(function(){
+			if($(this).scrollTop() > 20){
+				$('.back-to-top').fadeIn(500);
+			}
+			else{
+				$('.back-to-top').fadeOut(800);
+			}
+		});
+		
+		// animate the scroll to top
+		$('.back-to-top').click(function(event){
+			event.preventDefault();
+			$('html, body').animate({scrollTop: 0}, 800);
+		})
+	});
+</script>
+<!--End go-top button-->
+
+
+</body>
+</html>
